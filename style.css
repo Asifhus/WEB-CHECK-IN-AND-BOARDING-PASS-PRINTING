@@ -1,0 +1,136 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+body {
+	background: #73C8A9; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #373B44, #73C8A9);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #373B44, #73C8A9);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+form {
+	width: 80%;
+	margin: 0 auto;
+	padding: 5%;
+}
+
+}
+table {
+	margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+form p {
+	color: #619d8a;
+	text-decoration: none;
+}
+
+input, select {
+	font-family: "Roboto", sans-serif;
+	outline: 0;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+
+input[type=submit] {
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #619d8a;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	-webkit-transition: all 0.3 ease;
+	transition: all 0.3 ease;
+	cursor: pointer;
+}
+
+}
+label {
+	color: #3e3d3d;
+}
+
+.error {
+	color: red;
+}
+
+.container {
+	margin-top: 10%;
+	display: flex;
+}
+
+.banner {
+	width: 50%;
+	float: left;
+	text-align: center;
+	color: #000;
+}
+
+.form {
+	margin: 0 5%;
+	background: #fff;
+	width: 50%;
+	float: right;
+	text-align: center;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+	width: 50%;
+	background: #fff;
+}
+
+.form h4 {
+	width: 100%;
+	text-align: center;
+}
+
+.form .message {
+	margin: 15px 0 0;
+	color: #b3b3b3;
+	font-size: 12px;
+}
+
+.form .message a {
+	color: #619d8a;
+	text-decoration: none;
+}
+
+.login {
+	display: none;
+}
+
+.quote {
+	position: absolute;
+	transform: translate(45%, 100%);
+}
+
+.quote input {
+	width: 50%;
+}
+
+.flight-table {
+	width: 80%;
+	padding: 5% 0;
+	margin: 10% 10%;
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0
+		rgba(0, 0, 0, 0.24);
+	background: #fff;
+}
+.welcome-container {
+	margin: 10%;
+}
+.welcome-container h1 {
+	float: left;
+}
